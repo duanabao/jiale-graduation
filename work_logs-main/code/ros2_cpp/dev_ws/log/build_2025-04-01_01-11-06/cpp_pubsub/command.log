@@ -1,0 +1,2 @@
+Invoking command in '/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/cpp_pubsub -- -j20 -l20
+Invoked command in '/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/cpp_pubsub -- -j20 -l20

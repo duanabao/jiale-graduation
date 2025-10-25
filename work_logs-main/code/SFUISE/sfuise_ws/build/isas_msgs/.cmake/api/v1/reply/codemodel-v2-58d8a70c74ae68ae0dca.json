@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ab626de3c78b1b830c18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "isas_msgs__py",
+					"jsonFile" : "directory-isas_msgs__py-8ac708bf7ab199b03b8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/isas_msgs/isas_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "isas_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_isas_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_isas_msgs_egg-c715ae6e7193d678d512.json",
+					"name" : "ament_cmake_python_build_isas_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_isas_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_isas_msgs-07244f8df8bf6e8ecdd1.json",
+					"name" : "ament_cmake_python_copy_isas_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs-338587bb6434aa3e688a.json",
+					"name" : "isas_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__cpp-3508d09f7f99d0b3d215.json",
+					"name" : "isas_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "isas_msgs__py::@ba017bb55b330ccbac1f",
+					"jsonFile" : "target-isas_msgs__py-986b307c77ea72855562.json",
+					"name" : "isas_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_generator_c-91c4390d8a380d2f5c6f.json",
+					"name" : "isas_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_generator_py-e89039d8e45d3092234e.json",
+					"name" : "isas_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_c-05d4023f7c7814d4d47a.json",
+					"name" : "isas_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_c__pyext-da66245facbe4a3b6994.json",
+					"name" : "isas_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_cpp-8768350dee45a270be56.json",
+					"name" : "isas_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_fastrtps_c-444496c42cec39ca8867.json",
+					"name" : "isas_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_fastrtps_c__pyext-2514a179b126c57d8a61.json",
+					"name" : "isas_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_fastrtps_cpp-e3da22937f0b9f342260.json",
+					"name" : "isas_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_introspection_c-1831eb028f7fcb404e5f.json",
+					"name" : "isas_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_introspection_c__pyext-aa00940f304f7160e92d.json",
+					"name" : "isas_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs__rosidl_typesupport_introspection_cpp-6862a504067abd803ef9.json",
+					"name" : "isas_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "isas_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isas_msgs_uninstall-5960ff16dc7a8d8e9b0d.json",
+					"name" : "isas_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ecc192a491ab48f40b35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/isas_msgs",
+		"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/isas_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

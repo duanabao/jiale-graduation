@@ -1,0 +1,25 @@
+[0.376s] Invoking command in '/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/src/webots_epuck': PYTHONPATH=/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_epuck build --build-base /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/build install --record /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/install.log --single-version-externally-managed install_data
+[0.517s] running egg_info
+[0.517s] writing ../../build/webots_epuck/webots_epuck.egg-info/PKG-INFO
+[0.517s] writing dependency_links to ../../build/webots_epuck/webots_epuck.egg-info/dependency_links.txt
+[0.518s] writing entry points to ../../build/webots_epuck/webots_epuck.egg-info/entry_points.txt
+[0.518s] writing requirements to ../../build/webots_epuck/webots_epuck.egg-info/requires.txt
+[0.518s] writing top-level names to ../../build/webots_epuck/webots_epuck.egg-info/top_level.txt
+[0.519s] reading manifest file '../../build/webots_epuck/webots_epuck.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../build/webots_epuck/webots_epuck.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] running install
+[0.520s] running install_lib
+[0.521s] running install_data
+[0.521s] copying worlds/epuck_world.wbt -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/share/webots_epuck/worlds
+[0.521s] copying worlds/.epuck_world.wbproj -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/share/webots_epuck/worlds
+[0.521s] running install_egg_info
+[0.522s] removing '/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/python3.10/site-packages/webots_epuck-2023.1.3-py3.10.egg-info' (and everything under it)
+[0.523s] Copying ../../build/webots_epuck/webots_epuck.egg-info to /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/python3.10/site-packages/webots_epuck-2023.1.3-py3.10.egg-info
+[0.523s] running install_scripts
+[0.536s] Installing drive_calibrator script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/webots_epuck
+[0.536s] Installing epuck_node script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/webots_epuck
+[0.536s] Installing simple_mapper script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/webots_epuck
+[0.537s] writing list of installed files to '/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/install.log'
+[0.550s] Invoked command in '/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/src/webots_epuck' returned '0': PYTHONPATH=/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/install/webots_epuck/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_epuck build --build-base /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/build install --record /home/dsh/Documents/work_logs/code/AIIMU_ros2/webots_epuck_ws/build/webots_epuck/install.log --single-version-externally-managed install_data

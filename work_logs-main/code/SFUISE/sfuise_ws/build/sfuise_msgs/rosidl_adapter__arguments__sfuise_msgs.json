@@ -1,0 +1,10 @@
+{
+  "package_name": "sfuise_msgs",
+  "non_idl_tuples": [
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs:msg/Calib.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs:msg/Estimate.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs:msg/Knot.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs:msg/Offset.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs:msg/Spline.msg"
+  ]
+}

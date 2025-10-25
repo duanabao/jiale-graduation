@@ -1,0 +1,10 @@
+[console_scripts]
+camera_xyz = webots_demo.camera_xyz:main
+camera_xyz2 = webots_demo.camera_xyz2:main
+epuck_scan = webots_demo.epuck_scan:main
+location_path_rviz = webots_demo.location_path_rviz:main
+location_path_rviz1 = webots_demo.location_path_rviz1:main
+location_path_rviz2 = webots_demo.location_path_rviz2:main
+photo = webots_demo.photo:main
+random_walk = webots_demo.random_walk:main
+

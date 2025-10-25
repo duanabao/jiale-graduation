@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cf_msgs__cpp"
+  "rosidl_generator_cpp/cf_msgs/msg/accel.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/baro.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/accel__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/accel__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/accel__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/accel__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/baro__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/baro__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/baro__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/baro__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/flow__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/flow__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/flow__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/flow__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/gyro__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/gyro__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/gyro__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/gyro__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tdoa__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tdoa__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tdoa__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tdoa__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tof__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tof__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tof__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/tof__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/twr__builder.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/twr__struct.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/twr__traits.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/detail/twr__type_support.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/flow.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/gyro.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/tdoa.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/tof.hpp"
+  "rosidl_generator_cpp/cf_msgs/msg/twr.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/cf_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

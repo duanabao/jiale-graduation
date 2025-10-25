@@ -1,0 +1,57 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: null
+  duration:
+    nanoseconds: 85240738149
+  files:
+  - duration:
+      nanoseconds: 85240738149
+    message_count: 14964
+    path: ros2-walk3.db3
+    starting_time:
+      nanoseconds_since_epoch: 1664959844321199883
+  message_count: 14964
+  relative_file_paths:
+  - ros2-walk3.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 1664959844321199883
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 4263
+    topic_metadata:
+      name: /vive/transform/tracker_1_ref
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: geometry_msgs/msg/TransformStamped
+      type_description_hash: RIHS01_0a241f87d04668d94099cbb5ba11691d5ad32c2f29682e4eb5653424bd275206
+  - message_count: 6684
+    topic_metadata:
+      name: /waveshare_sense_hat_b
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+      type_description_hash: RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b
+  - message_count: 1339
+    topic_metadata:
+      name: /rtls_flares
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: fraunhofer_rtls_flare/msg/RTLSStick
+      type_description_hash: RIHS01_56b03ee64f8724fb74bb0d14d91a92ba6efe1763277574deda32a0ccee0cb3d9
+  - message_count: 1339
+    topic_metadata:
+      name: /rtls_pose
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: geometry_msgs/msg/PoseStamped
+      type_description_hash: RIHS01_10f3786d7d40fd2b54367835614bff85d4ad3b5dab62bf8bca0cc232d73b4cd8
+  - message_count: 1339
+    topic_metadata:
+      name: /anchor_list
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: fraunhofer_rtls_flare/msg/Anchorlist
+      type_description_hash: RIHS01_e8aba00836174640a03bbc50db3b2ec65a31276534df0763b98ea0d79d466de4
+  version: 8

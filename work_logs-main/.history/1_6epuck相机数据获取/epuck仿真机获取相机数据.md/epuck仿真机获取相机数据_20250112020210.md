@@ -1,0 +1,7 @@
+### 安装ros2
+### 安装webots
+- 参考：https://github.com/cyberbotics/webots/releases
+### 安装webots_ros2
+- 参考：https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Installation-Ubuntu.html
+
+

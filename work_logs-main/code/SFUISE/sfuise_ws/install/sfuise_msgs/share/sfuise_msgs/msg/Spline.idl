@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sfuise_msgs/msg/Spline.msg
+// generated code does not contain a copyright notice
+
+#include "sfuise_msgs/msg/Knot.idl"
+
+module sfuise_msgs {
+  module msg {
+    struct Spline {
+      uint64 start_idx;
+
+      int64 dt;
+
+      int64 start_t;
+
+      sequence<sfuise_msgs::msg::Knot> knots;
+
+      sequence<sfuise_msgs::msg::Knot> idles;
+    };
+  };
+};

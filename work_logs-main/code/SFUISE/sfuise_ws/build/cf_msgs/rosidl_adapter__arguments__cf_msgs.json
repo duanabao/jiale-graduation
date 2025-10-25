@@ -1,0 +1,12 @@
+{
+  "package_name": "cf_msgs",
+  "non_idl_tuples": [
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Accel.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Baro.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Flow.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Gyro.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Tdoa.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Tof.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/cf_msgs:msg/Twr.msg"
+  ]
+}

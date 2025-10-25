@@ -1,0 +1,10 @@
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/uninstall.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/bag_recorder_nodes_uninstall.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/simple_bag_recorder.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/test.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/edit_cache.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/rebuild_cache.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/list_install_components.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/install.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/install/local.dir
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes/CMakeFiles/install/strip.dir

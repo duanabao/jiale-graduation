@@ -1,0 +1,26 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+// with input from sfuise_msgs:msg/Calib.idl
+// generated code does not contain a copyright notice
+
+#ifndef SFUISE_MSGS__MSG__DETAIL__CALIB__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+#define SFUISE_MSGS__MSG__DETAIL__CALIB__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "sfuise_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_sfuise_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, sfuise_msgs, msg, Calib)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // SFUISE_MSGS__MSG__DETAIL__CALIB__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_

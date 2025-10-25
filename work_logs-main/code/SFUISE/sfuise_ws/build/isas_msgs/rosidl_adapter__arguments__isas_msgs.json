@@ -1,0 +1,9 @@
+{
+  "package_name": "isas_msgs",
+  "non_idl_tuples": [
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/isas_msgs:msg/Anchorlist.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/isas_msgs:msg/AnchorPosition.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/isas_msgs:msg/RTLSRange.msg",
+    "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/isas_msgs:msg/RTLSStick.msg"
+  ]
+}

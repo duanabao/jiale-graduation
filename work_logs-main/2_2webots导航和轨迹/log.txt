@@ -1,0 +1,115 @@
+ros2 launch webots_ros2_epuck robot_launch.py rviz:=true nav:=true
+[INFO] [launch]: All log files can be found below /home/dsh/.ros/log/2025-01-20-11-37-15-761894-dsh-Precision-5680-26461
+[INFO] [launch]: Default logging verbosity is set to INFO
+WARNING: No valid Webots directory specified in `ROS2_WEBOTS_HOME` and `WEBOTS_HOME`, fallback to default installation folder /usr/local/webots.
+[INFO] [webots-1]: process started with pid [26462]
+[INFO] [ros2_supervisor.py-2]: process started with pid [26464]
+[INFO] [robot_state_publisher-3]: process started with pid [26467]
+[INFO] [static_transform_publisher-4]: process started with pid [26470]
+[INFO] [webots_controller_e-puck-5]: process started with pid [26472]
+[INFO] [epuck_node-6]: process started with pid [26474]
+[static_transform_publisher-4] [WARN] [1737344235.839069218] []: Old-style arguments are deprecated; see --help for new-style arguments
+[robot_state_publisher-3] [INFO] [1737344235.865031925] [robot_state_publisher]: got segment 
+[static_transform_publisher-4] [INFO] [1737344235.866705476] [static_transform_publisher_l54sfzfbJDmz80kV]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'base_link' to 'base_footprint'
+[webots_controller_e-puck-5] The specified robot is not in the list of robots with <extern> controllers, retrying for another 50 seconds...
+[ros2_supervisor.py-2] The specified robot is not in the list of robots with <extern> controllers, retrying for another 50 seconds...
+[epuck_node-6] [INFO] [1737344236.147027715] [epuck_node]: Epuck node has been started.
+[webots_controller_e-puck-5] Warning: Webots [R2023b] and libController [R2024a] versions are not the same for Robot 'e-puck'! Different versions can lead to undefined behavior.
+[robot_state_publisher-3] [INFO] [1737344238.999639947] [robot_state_publisher]: got segment accelerometer
+[robot_state_publisher-3] [INFO] [1737344238.999684766] [robot_state_publisher]: got segment appearance
+[robot_state_publisher-3] [INFO] [1737344238.999690784] [robot_state_publisher]: got segment appearance_10
+[robot_state_publisher-3] [INFO] [1737344238.999695184] [robot_state_publisher]: got segment appearance_12
+[robot_state_publisher-3] [INFO] [1737344238.999698189] [robot_state_publisher]: got segment appearance_14
+[robot_state_publisher-3] [INFO] [1737344238.999701153] [robot_state_publisher]: got segment appearance_2
+[robot_state_publisher-3] [INFO] [1737344238.999704206] [robot_state_publisher]: got segment appearance_4
+[robot_state_publisher-3] [INFO] [1737344238.999707052] [robot_state_publisher]: got segment appearance_6
+[robot_state_publisher-3] [INFO] [1737344238.999709850] [robot_state_publisher]: got segment appearance_8
+[robot_state_publisher-3] [INFO] [1737344238.999712671] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1737344238.999715656] [robot_state_publisher]: got segment camera
+[robot_state_publisher-3] [INFO] [1737344238.999718826] [robot_state_publisher]: got segment cap screw
+[robot_state_publisher-3] [INFO] [1737344238.999721787] [robot_state_publisher]: got segment cap screw(0)
+[robot_state_publisher-3] [INFO] [1737344238.999724721] [robot_state_publisher]: got segment cap screw(1)
+[robot_state_publisher-3] [INFO] [1737344238.999727682] [robot_state_publisher]: got segment emitter
+[robot_state_publisher-3] [INFO] [1737344238.999730862] [robot_state_publisher]: got segment gyro
+[robot_state_publisher-3] [INFO] [1737344238.999733957] [robot_state_publisher]: got segment led0
+[robot_state_publisher-3] [INFO] [1737344238.999737261] [robot_state_publisher]: got segment led1
+[robot_state_publisher-3] [INFO] [1737344238.999740141] [robot_state_publisher]: got segment led2
+[robot_state_publisher-3] [INFO] [1737344238.999742958] [robot_state_publisher]: got segment led3
+[robot_state_publisher-3] [INFO] [1737344238.999745784] [robot_state_publisher]: got segment led4
+[robot_state_publisher-3] [INFO] [1737344238.999748610] [robot_state_publisher]: got segment led5
+[robot_state_publisher-3] [INFO] [1737344238.999752059] [robot_state_publisher]: got segment led6
+[robot_state_publisher-3] [INFO] [1737344238.999756451] [robot_state_publisher]: got segment led7
+[robot_state_publisher-3] [INFO] [1737344238.999760741] [robot_state_publisher]: got segment led8
+[robot_state_publisher-3] [INFO] [1737344238.999764793] [robot_state_publisher]: got segment led9
+[robot_state_publisher-3] [INFO] [1737344238.999769115] [robot_state_publisher]: got segment left wheel
+[robot_state_publisher-3] [INFO] [1737344238.999778347] [robot_state_publisher]: got segment ls0
+[robot_state_publisher-3] [INFO] [1737344238.999783015] [robot_state_publisher]: got segment ls1
+[robot_state_publisher-3] [INFO] [1737344238.999785996] [robot_state_publisher]: got segment ls2
+[robot_state_publisher-3] [INFO] [1737344238.999788808] [robot_state_publisher]: got segment ls3
+[robot_state_publisher-3] [INFO] [1737344238.999791623] [robot_state_publisher]: got segment ls4
+[robot_state_publisher-3] [INFO] [1737344238.999794450] [robot_state_publisher]: got segment ls5
+[robot_state_publisher-3] [INFO] [1737344238.999797248] [robot_state_publisher]: got segment ls6
+[robot_state_publisher-3] [INFO] [1737344238.999800073] [robot_state_publisher]: got segment ls7
+[robot_state_publisher-3] [INFO] [1737344238.999802947] [robot_state_publisher]: got segment pi-puck
+[robot_state_publisher-3] [INFO] [1737344238.999806020] [robot_state_publisher]: got segment pi-puck led 0
+[robot_state_publisher-3] [INFO] [1737344238.999810385] [robot_state_publisher]: got segment pi-puck led 1
+[robot_state_publisher-3] [INFO] [1737344238.999815401] [robot_state_publisher]: got segment pi-puck led 2
+[robot_state_publisher-3] [INFO] [1737344238.999821569] [robot_state_publisher]: got segment pipe
+[robot_state_publisher-3] [INFO] [1737344238.999824747] [robot_state_publisher]: got segment ps0
+[robot_state_publisher-3] [INFO] [1737344238.999827722] [robot_state_publisher]: got segment ps0_13
+[robot_state_publisher-3] [INFO] [1737344238.999830565] [robot_state_publisher]: got segment ps1
+[robot_state_publisher-3] [INFO] [1737344238.999833586] [robot_state_publisher]: got segment ps1_11
+[robot_state_publisher-3] [INFO] [1737344238.999838622] [robot_state_publisher]: got segment ps2
+[robot_state_publisher-3] [INFO] [1737344238.999841582] [robot_state_publisher]: got segment ps2_9
+[robot_state_publisher-3] [INFO] [1737344238.999844566] [robot_state_publisher]: got segment ps3
+[robot_state_publisher-3] [INFO] [1737344238.999847521] [robot_state_publisher]: got segment ps3_7
+[robot_state_publisher-3] [INFO] [1737344238.999850436] [robot_state_publisher]: got segment ps4
+[robot_state_publisher-3] [INFO] [1737344238.999853506] [robot_state_publisher]: got segment ps4_5
+[robot_state_publisher-3] [INFO] [1737344238.999856407] [robot_state_publisher]: got segment ps5
+[robot_state_publisher-3] [INFO] [1737344238.999859369] [robot_state_publisher]: got segment ps5_3
+[robot_state_publisher-3] [INFO] [1737344238.999862328] [robot_state_publisher]: got segment ps6
+[robot_state_publisher-3] [INFO] [1737344238.999865240] [robot_state_publisher]: got segment ps6_1
+[robot_state_publisher-3] [INFO] [1737344238.999868090] [robot_state_publisher]: got segment ps7
+[robot_state_publisher-3] [INFO] [1737344238.999899589] [robot_state_publisher]: got segment ps7_0
+[robot_state_publisher-3] [INFO] [1737344238.999902745] [robot_state_publisher]: got segment receiver
+[robot_state_publisher-3] [INFO] [1737344238.999905717] [robot_state_publisher]: got segment right wheel
+[robot_state_publisher-3] [INFO] [1737344238.999908766] [robot_state_publisher]: got segment solid
+[robot_state_publisher-3] [INFO] [1737344238.999911656] [robot_state_publisher]: got segment speaker
+[robot_state_publisher-3] [INFO] [1737344238.999914528] [robot_state_publisher]: got segment tof
+[webots_controller_e-puck-5] [INFO] [1737344239.005737314] [resource_manager]: Initialize hardware 'WebotsControl' 
+[webots_controller_e-puck-5] [INFO] [1737344239.005800382] [resource_manager]: Successful initialization of hardware 'WebotsControl'
+[webots_controller_e-puck-5] [INFO] [1737344239.005822775] [resource_manager]: 'configure' hardware 'WebotsControl' 
+[webots_controller_e-puck-5] [INFO] [1737344239.005828478] [resource_manager]: Successful 'configure' of hardware 'WebotsControl'
+[webots_controller_e-puck-5] [INFO] [1737344239.005832333] [resource_manager]: 'activate' hardware 'WebotsControl' 
+[webots_controller_e-puck-5] [INFO] [1737344239.005836076] [resource_manager]: Successful 'activate' of hardware 'WebotsControl'
+[INFO] [launch.user]: Navigation2 is not installed, navigation functionality is disabled
+[webots_controller_e-puck-5] [INFO] [1737344239.011830174] [e_puck]: Controller successfully connected to robot in Webots simulation.
+[INFO] [rviz2-7]: process started with pid [26599]
+[INFO] [simple_mapper-8]: process started with pid [26601]
+[INFO] [spawner-9]: process started with pid [26603]
+[INFO] [spawner-10]: process started with pid [26605]
+[ros2_supervisor.py-2] Warning: Webots [R2023b] and libController [R2024a] versions are not the same for Robot 'Ros2Supervisor'! Different versions can lead to undefined behavior.
+[webots_controller_e-puck-5] [INFO] [1737344239.271129110] [controller_manager]: Loading controller 'diffdrive_controller'
+[webots_controller_e-puck-5] [INFO] [1737344239.288451935] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-9] [INFO] [1737344239.306064953] [spawner_diffdrive_controller]: Loaded diffdrive_controller
+[webots_controller_e-puck-5] [INFO] [1737344239.307544537] [controller_manager]: Configuring controller 'diffdrive_controller'
+[spawner-10] [INFO] [1737344239.316838207] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[rviz2-7] [INFO] [1737344239.362245929] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1737344239.362324636] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-7] [INFO] [1737344239.380386033] [rviz2]: Stereo is NOT SUPPORTED
+[spawner-9] [INFO] [1737344239.383487414] [spawner_diffdrive_controller]: Configured and activated diffdrive_controller
+[INFO] [spawner-9]: process has finished cleanly [pid 26603]
+[rviz2-7] [INFO] [1737344239.583657366] [rviz2]: Trying to create a map of size 300 x 300 using 1 swatches
+[rviz2-7] [ERROR] [1737344239.607179332] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[webots_controller_e-puck-5] [INFO] [1737344240.326730227] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[webots_controller_e-puck-5] [INFO] [1737344240.326934752] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-10] [INFO] [1737344240.389454347] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[INFO] [spawner-10]: process has finished cleanly [pid 26605]
+[rviz2-7] [INFO] [1737344244.899894188] [rviz2]: Setting goal pose: Frame:map, Position(0.0177871, 0.00397849, 0), Orientation(0, 0, 0.0326501, 0.999467) = Angle: 0.0653117
+[rviz2-7] [INFO] [1737344248.899956039] [rviz2]: Setting estimate pose: Frame:map, Position(0.405318, -0.313751, 0), Orientation(0, 0, -0.723961, 0.689841) = Angle: -1.61905
+
+

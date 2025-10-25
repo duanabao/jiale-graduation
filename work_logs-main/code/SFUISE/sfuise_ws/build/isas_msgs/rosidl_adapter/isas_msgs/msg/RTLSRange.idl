@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isas_msgs/msg/RTLSRange.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module isas_msgs {
+  module msg {
+    struct RTLSRange {
+      @verbatim (language="comment", text=
+        "anchor id")
+      uint16 id;
+
+      @verbatim (language="comment", text=
+        "anchor position")
+      geometry_msgs::msg::Point pos;
+
+      @verbatim (language="comment", text=
+        "position rate for the quality of the estimated anchor position")
+      float pr;
+
+      @verbatim (language="comment", text=
+        "current distance to the anchor in m")
+      float range;
+
+      @verbatim (language="comment", text=
+        "mean value of distances since reset")
+      float mean;
+
+      @verbatim (language="comment", text=
+        "variance of the distance")
+      float var;
+
+      @verbatim (language="comment", text=
+        "first path power")
+      float fpp;
+
+      @verbatim (language="comment", text=
+        "received power")
+      float rxp;
+
+      @verbatim (language="comment", text=
+        "channel standard noise")
+      float csn;
+
+      @verbatim (language="comment", text=
+        "channel maximum noise")
+      float cmn;
+
+      @verbatim (language="comment", text=
+        "time out counter, increases if the range measurement fails")
+      uint8 toc;
+
+      @verbatim (language="comment", text=
+        "1 denotes valid data and has been used for the estimation of position, 0 denotes old data, the measurement didn't success")
+      uint8 ra;
+    };
+  };
+};

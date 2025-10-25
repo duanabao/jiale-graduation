@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sfuise_msgs/msg/Offset.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module sfuise_msgs {
+  module msg {
+    struct Offset {
+      int8 id_tag;
+
+      int8 id_antenna;
+
+      geometry_msgs::msg::Point t_tag_body;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sfuise_msgs/msg/Calib.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module sfuise_msgs {
+  module msg {
+    struct Calib {
+      geometry_msgs::msg::Point gravity;
+
+      geometry_msgs::msg::Point t_nav_uwb;
+
+      geometry_msgs::msg::Quaternion q_nav_uwb;
+
+      geometry_msgs::msg::Point t_tag_body_set;
+    };
+  };
+};

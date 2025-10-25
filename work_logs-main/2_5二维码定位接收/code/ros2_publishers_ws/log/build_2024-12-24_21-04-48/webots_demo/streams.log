@@ -1,0 +1,26 @@
+[0.491s] Invoking command in '/home/ljl/ros2_publishers_ws/src/webots_demo': PYTHONPATH=/home/ljl/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data
+[0.672s] running egg_info
+[0.673s] writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+[0.673s] writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+[0.673s] writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+[0.673s] writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+[0.674s] reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.675s] writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.675s] running build_py
+[0.676s] running install
+[0.676s] running install_lib
+[0.677s] running install_data
+[0.677s] copying resource/webots_demo -> /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index/resource_index/packages
+[0.677s] creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/webots_demo/launch
+[0.677s] running install_egg_info
+[0.678s] removing '/home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.678s] Copying ../../build/webots_demo/webots_demo.egg-info to /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.694s] Installing camera_xyz script to /home/ljl/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.695s] Installing camera_xyz2 script to /home/ljl/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.695s] Installing epuck_scan script to /home/ljl/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.695s] Installing random_walk script to /home/ljl/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.695s] writing list of installed files to '/home/ljl/ros2_publishers_ws/build/webots_demo/install.log'
+[0.713s] Invoked command in '/home/ljl/ros2_publishers_ws/src/webots_demo' returned '0': PYTHONPATH=/home/ljl/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data

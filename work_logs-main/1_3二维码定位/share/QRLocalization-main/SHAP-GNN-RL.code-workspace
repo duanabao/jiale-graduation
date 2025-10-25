@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../SHAP-GNN-RL"
+		},
+		{
+			"name": "mobileLocationViz",
+			"path": "../mobileLocationViz"
+		},
+		{
+			"name": "distributedOORL",
+			"path": "../distributedOORL"
+		},
+		{
+			"name": "QRLocalization-1",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

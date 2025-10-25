@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cf_msgs__py",
+		"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/cf_msgs/cf_msgs__py"
+	}
+}

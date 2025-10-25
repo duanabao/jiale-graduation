@@ -1,0 +1,16 @@
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml

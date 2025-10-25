@@ -1,0 +1,43 @@
+[0.590s] Invoking command in '/home/ljl/ros2_publishers_ws/src/webots_demo': PYTHONPATH=/home/ljl/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data
+[0.775s] running egg_info
+[0.776s] creating ../../build/webots_demo/webots_demo.egg-info
+[0.776s] writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+[0.776s] writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+[0.776s] writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.778s] reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.778s] writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.778s] creating /home/ljl/ros2_publishers_ws/build/webots_demo/build
+[0.778s] creating /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib
+[0.778s] creating /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.778s] copying webots_demo/epuck_scan.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] copying webots_demo/camera_xyz.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] copying webots_demo/rangefinder_controller.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] copying webots_demo/camera_xyz2.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] copying webots_demo/__init__.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] copying webots_demo/random_walk.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.779s] running install
+[0.779s] running install_lib
+[0.780s] creating /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/epuck_scan.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/camera_xyz.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/rangefinder_controller.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/camera_xyz2.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/__init__.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.780s] copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/random_walk.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.781s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/epuck_scan.py to epuck_scan.cpython-310.pyc
+[0.781s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/camera_xyz.py to camera_xyz.cpython-310.pyc
+[0.782s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/rangefinder_controller.py to rangefinder_controller.cpython-310.pyc
+[0.782s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/camera_xyz2.py to camera_xyz2.cpython-310.pyc
+[0.782s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/__init__.py to __init__.cpython-310.pyc
+[0.782s] byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/random_walk.py to random_walk.cpython-310.pyc
+[0.783s] running install_data
+[0.783s] creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index
+[0.783s] creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index/resource_index
+[0.783s] creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index/resource_index/packages
+[0.783s] error: can't copy 'resource/webots_demo': doesn't exist or not a regular file
+[0.802s] Invoked command in '/home/ljl/ros2_publishers_ws/src/webots_demo' returned '1': PYTHONPATH=/home/ljl/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "isas_msgs__py",
+		"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/isas_msgs/isas_msgs__py"
+	}
+}

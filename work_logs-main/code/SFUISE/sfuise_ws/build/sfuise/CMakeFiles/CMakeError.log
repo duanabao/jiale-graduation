@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18d98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18d98.dir/build.make CMakeFiles/cmTC_18d98.dir/build
+gmake[1]: Entering directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18d98.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_18d98.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18d98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18d98.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_18d98.dir/CheckFunctionExists.c.o -o cmTC_18d98 
+/usr/bin/ld: CMakeFiles/cmTC_18d98.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_18d98.dir/build.make:99: cmTC_18d98] Error 1
+gmake[1]: Leaving directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_18d98/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9803c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9803c.dir/build.make CMakeFiles/cmTC_9803c.dir/build
+gmake[1]: Entering directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9803c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_9803c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9803c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9803c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_9803c.dir/CheckFunctionExists.c.o -o cmTC_9803c  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_9803c.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9803c.dir/build.make:100: cmTC_9803c] Error 1
+gmake[1]: Leaving directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9803c/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7e7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7e7e.dir/build.make CMakeFiles/cmTC_d7e7e.dir/build
+gmake[1]: Entering directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7e7e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_d7e7e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7e7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7e7e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_d7e7e.dir/CheckFunctionExists.c.o -o cmTC_d7e7e  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_d7e7e.dir/build.make:101: cmTC_d7e7e] Error 1
+gmake[1]: Leaving directory '/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d7e7e/fast] Error 2
+
+
+

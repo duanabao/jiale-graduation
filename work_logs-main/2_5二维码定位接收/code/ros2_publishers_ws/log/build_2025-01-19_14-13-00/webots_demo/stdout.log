@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/webots_demo/webots_demo.egg-info to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_xyz script to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+Installing camera_xyz2 script to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+Installing epuck_scan script to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+Installing identify_qr_code script to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+Installing random_walk script to /home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+writing list of installed files to '/home/dsh/Documents/work_logs/1_3二维码定位/code/ros2_publishers_ws/build/webots_demo/install.log'

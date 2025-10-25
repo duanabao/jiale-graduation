@@ -1,0 +1,8 @@
+[console_scripts]
+drive_calibrator = webots_epuck.drive_calibrator:main
+epuck_node = webots_epuck.epuck_node:main
+simple_mapper = webots_epuck.simple_mapper:main
+
+[launch.frontend.launch_extension]
+launch_ros = launch_ros
+

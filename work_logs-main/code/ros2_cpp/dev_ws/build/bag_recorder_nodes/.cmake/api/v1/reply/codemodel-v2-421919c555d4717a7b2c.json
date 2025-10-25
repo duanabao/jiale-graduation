@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-41d8d5c6def85dd959f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bag_recorder_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bag_recorder_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bag_recorder_nodes_uninstall-1d9d645d2739b8cda22f.json",
+					"name" : "bag_recorder_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_bag_recorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_bag_recorder-4edb432f2182330f2fb5.json",
+					"name" : "simple_bag_recorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9fba995e7f82f06da7ac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/build/bag_recorder_nodes",
+		"source" : "/home/dsh/Documents/work_logs/code/ros2_cpp/dev_ws/src/bag_recorder_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

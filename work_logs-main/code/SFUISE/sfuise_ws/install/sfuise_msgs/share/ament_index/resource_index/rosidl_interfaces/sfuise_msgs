@@ -1,0 +1,10 @@
+msg/Calib.idl
+msg/Calib.msg
+msg/Estimate.idl
+msg/Estimate.msg
+msg/Knot.idl
+msg/Knot.msg
+msg/Offset.idl
+msg/Offset.msg
+msg/Spline.idl
+msg/Spline.msg

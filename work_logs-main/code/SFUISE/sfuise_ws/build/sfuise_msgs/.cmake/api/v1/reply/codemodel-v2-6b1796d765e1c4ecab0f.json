@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0b833bdba6c344315a3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "sfuise_msgs__py",
+					"jsonFile" : "directory-sfuise_msgs__py-a82d6837e35686966b2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise_msgs/sfuise_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sfuise_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sfuise_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sfuise_msgs_egg-a5f174656d31f460c420.json",
+					"name" : "ament_cmake_python_build_sfuise_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sfuise_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sfuise_msgs-4aab2ff72dcdda592fa4.json",
+					"name" : "ament_cmake_python_copy_sfuise_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs-1cf9fe0184413658e789.json",
+					"name" : "sfuise_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__cpp-c2098750d52df6053b4d.json",
+					"name" : "sfuise_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sfuise_msgs__py::@b455bbef9cf728f1f957",
+					"jsonFile" : "target-sfuise_msgs__py-65d6c23e373df819b0a0.json",
+					"name" : "sfuise_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_generator_c-764b06c1fef2eea570d1.json",
+					"name" : "sfuise_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_generator_py-455baeb0e612882f95cd.json",
+					"name" : "sfuise_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_c-3e02c3fb1375fd919ef8.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_c__pyext-7cdde42f895b90a10170.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_cpp-bbfa57ce5ccdb19832b6.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_fastrtps_c-13db1fd8e0e0c703efa2.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_fastrtps_c__pyext-427881387111deb93d90.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_fastrtps_cpp-4b0879823721f7e48726.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_introspection_c-4914874ba34ac9366848.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_introspection_c__pyext-2d7bd5c9bb987ce0a8a7.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs__rosidl_typesupport_introspection_cpp-45229b6918269d89a53d.json",
+					"name" : "sfuise_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfuise_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfuise_msgs_uninstall-fff434ff5f0df61983b9.json",
+					"name" : "sfuise_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c3e5ea60dd39b8cf9b35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/build/sfuise_msgs",
+		"source" : "/home/dsh/Documents/work_logs/code/SFUISE/sfuise_ws/src/sfuise_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

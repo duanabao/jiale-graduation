@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/webots_demo/webots_demo.egg-info
+writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ljl/ros2_publishers_ws/build/webots_demo/build
+creating /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib
+creating /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/epuck_scan.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/camera_xyz.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/rangefinder_controller.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/camera_xyz2.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/__init__.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+copying webots_demo/random_walk.py -> /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+running install
+running install_lib
+creating /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/epuck_scan.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/camera_xyz.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/rangefinder_controller.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/camera_xyz2.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/__init__.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+copying /home/ljl/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/random_walk.py -> /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/epuck_scan.py to epuck_scan.cpython-310.pyc
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/camera_xyz.py to camera_xyz.cpython-310.pyc
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/rangefinder_controller.py to rangefinder_controller.cpython-310.pyc
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/camera_xyz2.py to camera_xyz2.cpython-310.pyc
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ljl/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/random_walk.py to random_walk.cpython-310.pyc
+running install_data
+creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index
+creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index/resource_index
+creating /home/ljl/ros2_publishers_ws/install/webots_demo/share/ament_index/resource_index/packages
+error: can't copy 'resource/webots_demo': doesn't exist or not a regular file

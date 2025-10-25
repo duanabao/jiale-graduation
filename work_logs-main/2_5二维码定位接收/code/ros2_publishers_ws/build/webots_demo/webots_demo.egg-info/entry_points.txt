@@ -1,0 +1,8 @@
+[console_scripts]
+camera_xyz = webots_demo.camera_xyz:main
+camera_xyz2 = webots_demo.camera_xyz2:main
+epuck_control_node = webots_demo.epuck_control_node:main
+epuck_scan = webots_demo.epuck_scan:main
+identify_qr_code = webots_demo.identify_qr_code:main
+random_walk = webots_demo.random_walk:main
+

@@ -1,0 +1,106 @@
+### 1. epuck连接电脑
+- 第一次使用：
+    - 连接屏幕，键盘，启动Epuck中自带的树莓派
+    - 设置wifi
+        - 参考：https://ustb-mdrl-nav-ctr.yuque.com/org-wiki-ustb-mdrl-nav-ctr-xpfeth/upa7ol/wff3p0u5oovvquct/edit
+        - 使用手机热点，或者，下载一个wifi-hotspot使用电脑热点
+    - 下载MobaXterm，电脑ssh连接epuck树莓派   
+- 每次使用：
+    - 连接epuck和电脑：
+        - 开启电脑热点
+        - 开启epuck机器人
+        - 从wifi-hotspot上获取epuck树莓派的地址
+        - 启动MobaXterm连接epuck树莓派
+        - 登陆
+            - 用户名：pi
+            - 密码：raspberry
+
+### 2. 相机数据获取
+- 参考epuck使用教程：
+    - https://github.com/cyberbotics/webots_ros2/wiki/Tutorial-E-puck-for-ROS2-Beginners
+    - https://www.gctronic.com/doc/index.php/e-puckhttps://www.gctronic.com/doc/index.php/e-puck2
+- 参考Pi-puck使用教程：https://www.gctronic.com/doc/index.php?title=Pi-puck
+- 拍照：
+    - `python3 /home/pi/Pi-puck/camera-configuration.py` 配置相机
+    - 用 OpenCV 从机器人的相机捕获图像：在目录/home/pi/Pi-puck/snapshot/
+    - 运行：`./snapshot -d 1 -v` or `python3 snapshot.py -d 1 -v`
+        - 加上`-v`显示调试信息
+        - `-n` NUM指定捕获多少张图像（1-99），默认为1
+        - `-d 1`从机器人相机获取，`-d 0`从360度相机获取（默认）
+    - 运行结果：![运行结果](img/运行结果.png)
+    - 拍照结果：![拍照结果](img/拍照结果.jpg)
+- ros2:
+    - `ros2 run epuck_ros2_driver driver` 命令启动实体epuck机器人
+    - `ros2 run epuck_ros2_camera camera` 启动相机
+        - 运行`ros2 node list`，显示`/epuck_ros2_camera`
+        - 运行`ros2 topic list`，显示
+        ```
+        /camera_info
+        /image_raw
+        /image_raw/compressed
+        /parameter_events
+        /rosout
+        ```
+        - 运行`rqt`/`ros2 run rviz2 rviz2`，接收`/image_raw`
+            - ros2接收图片：![ros2接收图片](img)
+        - 运行`ros2 topic echo /camera_info`,显示
+            - ![camera_info显示信息](img)
+
+### 3. 电脑与树莓派信息传递：
+- 从树莓派传到电脑的命令格式：`scp pi@<树莓派的IP地址>:/path/to/file /local/path/`
+- 实际例子：`scp pi@192.168.12.151:/home/pi/Pi-puck/snapshot/image00.jpg 拍照结果.jpg`
+
+### 4.启动多个窗口（ssh远程控制树莓派）
+- 安装 tmux
+    ```bash
+    sudo apt update
+    sudo apt install tmux
+    ```
+
+- 启动 tmux 会话
+    ```bash
+    tmux
+    ```
+    这会启动一个新会话。
+
+- 常用操作
+    - 创建新窗口
+        - 按下 `Ctrl+b`，然后按 `c`，即可创建一个新窗口
+    - 在窗口之间切换  
+        - 按下 `Ctrl+b`，然后按窗口编号（如 0、1）
+    - 退出但保持会话运行
+        - 按下 `Ctrl+b`，然后按 `d`，会话会后台运行
+    - 重新连接会话
+        ```bash
+        tmux attach
+        ```
+
+### 5. 使用screen管理多个终端会话
+- 安装screen
+    ```bash
+    sudo apt update
+    sudo apt install screen
+    ```
+
+- 基本操作
+    - 创建新会话
+        ```bash
+        screen             # 创建未命名会话
+        screen -S 会话名称  # 创建命名会话
+        ```
+    
+    - 会话管理
+        - `Ctrl+a d`  # 暂时离开当前会话(detach)
+        - `screen -ls` # 查看所有会话
+        - `screen -r`  # 恢复上一个会话
+        - `screen -r 会话名称` # 恢复指定会话
+    
+    - 窗口操作
+        - `Ctrl+a c`  # 创建新窗口
+        - `Ctrl+a n`  # 切换到下一个窗口
+        - `Ctrl+a p`  # 切换到上一个窗口
+        - `Ctrl+a 数字键` # 切换到指定窗口
+    
+    - 结束操作
+        - `exit` 或 `Ctrl+d`  # 关闭当前窗口
+        - `Ctrl+a k`  # 强制关闭当前窗口

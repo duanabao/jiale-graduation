@@ -1,0 +1,177 @@
+// generated from rosidl_generator_c/resource/idl__functions.h.em
+// with input from isas_msgs:msg/Anchorlist.idl
+// generated code does not contain a copyright notice
+
+#ifndef ISAS_MSGS__MSG__DETAIL__ANCHORLIST__FUNCTIONS_H_
+#define ISAS_MSGS__MSG__DETAIL__ANCHORLIST__FUNCTIONS_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stdlib.h>
+
+#include "rosidl_runtime_c/visibility_control.h"
+#include "isas_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#include "isas_msgs/msg/detail/anchorlist__struct.h"
+
+/// Initialize msg/Anchorlist message.
+/**
+ * If the init function is called twice for the same message without
+ * calling fini inbetween previously allocated memory will be leaked.
+ * \param[in,out] msg The previously allocated message pointer.
+ * Fields without a default value will not be initialized by this function.
+ * You might want to call memset(msg, 0, sizeof(
+ * isas_msgs__msg__Anchorlist
+ * )) before or use
+ * isas_msgs__msg__Anchorlist__create()
+ * to allocate and initialize the message.
+ * \return true if initialization was successful, otherwise false
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__init(isas_msgs__msg__Anchorlist * msg);
+
+/// Finalize msg/Anchorlist message.
+/**
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+void
+isas_msgs__msg__Anchorlist__fini(isas_msgs__msg__Anchorlist * msg);
+
+/// Create msg/Anchorlist message.
+/**
+ * It allocates the memory for the message, sets the memory to zero, and
+ * calls
+ * isas_msgs__msg__Anchorlist__init().
+ * \return The pointer to the initialized message if successful,
+ * otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+isas_msgs__msg__Anchorlist *
+isas_msgs__msg__Anchorlist__create();
+
+/// Destroy msg/Anchorlist message.
+/**
+ * It calls
+ * isas_msgs__msg__Anchorlist__fini()
+ * and frees the memory of the message.
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+void
+isas_msgs__msg__Anchorlist__destroy(isas_msgs__msg__Anchorlist * msg);
+
+/// Check for msg/Anchorlist message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__are_equal(const isas_msgs__msg__Anchorlist * lhs, const isas_msgs__msg__Anchorlist * rhs);
+
+/// Copy a msg/Anchorlist message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__copy(
+  const isas_msgs__msg__Anchorlist * input,
+  isas_msgs__msg__Anchorlist * output);
+
+/// Initialize array of msg/Anchorlist messages.
+/**
+ * It allocates the memory for the number of elements and calls
+ * isas_msgs__msg__Anchorlist__init()
+ * for each element of the array.
+ * \param[in,out] array The allocated array pointer.
+ * \param[in] size The size / capacity of the array.
+ * \return true if initialization was successful, otherwise false
+ * If the array pointer is valid and the size is zero it is guaranteed
+ # to return true.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__Sequence__init(isas_msgs__msg__Anchorlist__Sequence * array, size_t size);
+
+/// Finalize array of msg/Anchorlist messages.
+/**
+ * It calls
+ * isas_msgs__msg__Anchorlist__fini()
+ * for each element of the array and frees the memory for the number of
+ * elements.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+void
+isas_msgs__msg__Anchorlist__Sequence__fini(isas_msgs__msg__Anchorlist__Sequence * array);
+
+/// Create array of msg/Anchorlist messages.
+/**
+ * It allocates the memory for the array and calls
+ * isas_msgs__msg__Anchorlist__Sequence__init().
+ * \param[in] size The size / capacity of the array.
+ * \return The pointer to the initialized array if successful, otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+isas_msgs__msg__Anchorlist__Sequence *
+isas_msgs__msg__Anchorlist__Sequence__create(size_t size);
+
+/// Destroy array of msg/Anchorlist messages.
+/**
+ * It calls
+ * isas_msgs__msg__Anchorlist__Sequence__fini()
+ * on the array,
+ * and frees the memory of the array.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+void
+isas_msgs__msg__Anchorlist__Sequence__destroy(isas_msgs__msg__Anchorlist__Sequence * array);
+
+/// Check for msg/Anchorlist message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__Sequence__are_equal(const isas_msgs__msg__Anchorlist__Sequence * lhs, const isas_msgs__msg__Anchorlist__Sequence * rhs);
+
+/// Copy an array of msg/Anchorlist messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_isas_msgs
+bool
+isas_msgs__msg__Anchorlist__Sequence__copy(
+  const isas_msgs__msg__Anchorlist__Sequence * input,
+  isas_msgs__msg__Anchorlist__Sequence * output);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // ISAS_MSGS__MSG__DETAIL__ANCHORLIST__FUNCTIONS_H_

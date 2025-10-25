@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isas_msgs/msg/RTLSStick.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "isas_msgs/msg/RTLSRange.idl"
+#include "std_msgs/msg/Header.idl"
+
+module isas_msgs {
+  module msg {
+    struct RTLSStick {
+      std_msgs::msg::Header header;
+
+      uint16 id;
+
+      @verbatim (language="comment", text=
+        "timestamp in ms since the modul is turned on")
+      uint32 t;
+
+      @verbatim (language="comment", text=
+        "current position")
+      geometry_msgs::msg::Point pos;
+
+      @verbatim (language="comment", text=
+        "mean position")
+      geometry_msgs::msg::Point mean;
+
+      @verbatim (language="comment", text=
+        "heading, roll, pitch")
+      geometry_msgs::msg::Vector3 hrp;
+
+      @verbatim (language="comment", text=
+        "number of known anchors")
+      uint8 noga;
+
+      @verbatim (language="comment", text=
+        "number of anchors used for the current estimation of position")
+      uint8 nora;
+
+      @verbatim (language="comment", text=
+        "range measurements")
+      sequence<isas_msgs::msg::RTLSRange> ranges;
+    };
+  };
+};

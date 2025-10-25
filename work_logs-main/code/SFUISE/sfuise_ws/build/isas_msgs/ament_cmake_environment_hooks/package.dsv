@@ -1,0 +1,4 @@
+source;share/isas_msgs/local_setup.bash
+source;share/isas_msgs/local_setup.dsv
+source;share/isas_msgs/local_setup.sh
+source;share/isas_msgs/local_setup.zsh

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from isas_msgs/msg/Anchorlist.msg
+// generated code does not contain a copyright notice
+
+#include "isas_msgs/msg/AnchorPosition.idl"
+
+module isas_msgs {
+  module msg {
+    struct Anchorlist {
+      sequence<isas_msgs::msg::AnchorPosition> anchor;
+    };
+  };
+};

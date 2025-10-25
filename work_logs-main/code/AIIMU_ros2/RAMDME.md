@@ -1,0 +1,12 @@
+### 代码模块
+- webots_epuck_ws：启动webots中的epuck
+    - 修改场景
+- ros2_publishers_ws：
+    - random_walk：随机行走
+    - location_path_rviz：根据位置信息，给出/path话题，rviz接收path信息，绘制轨迹
+- ai-imu-dr：aiimu模型代码
+    - 源码来源：https://github.com/mbrossar/ai-imu-dr
+    - 修改说明：
+        - main_kitti.py加入输出处理完的imu数据到temp,保存位置信息到.csv文件中
+        - dataset.py加入根据输入的.p文件，保存位置信息到raw_temp下的.csv文件中
+        - 另将方差调整代码注释,获取imu对应未修正位置信息，保存到imu_temp下的.csv文件中

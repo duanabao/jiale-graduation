@@ -1,0 +1,37 @@
+[0.368s] Invoking command in '/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/src/webots_demo': PYTHONPATH=/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build install --record /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.512s] writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+[0.512s] writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+[0.512s] writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+[0.512s] writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+[0.513s] reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.514s] writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.514s] running build
+[0.514s] running build_py
+[0.514s] copying webots_demo/location_path_rviz1.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.514s] copying webots_demo/location_path_rviz2.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.514s] copying webots_demo/location_path_rviz.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.514s] running install
+[0.514s] running install_lib
+[0.515s] copying /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/location_path_rviz1.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.515s] copying /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/location_path_rviz2.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.515s] copying /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/location_path_rviz.py -> /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.515s] byte-compiling /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/location_path_rviz1.py to location_path_rviz1.cpython-310.pyc
+[0.516s] byte-compiling /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/location_path_rviz2.py to location_path_rviz2.cpython-310.pyc
+[0.516s] byte-compiling /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/location_path_rviz.py to location_path_rviz.cpython-310.pyc
+[0.516s] running install_data
+[0.517s] running install_egg_info
+[0.518s] removing '/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.518s] Copying ../../build/webots_demo/webots_demo.egg-info to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info
+[0.518s] running install_scripts
+[0.532s] Installing camera_xyz script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing camera_xyz2 script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing epuck_scan script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing location_path_rviz script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing location_path_rviz1 script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing location_path_rviz2 script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.532s] Installing photo script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.533s] Installing random_walk script to /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.533s] writing list of installed files to '/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/install.log'
+[0.549s] Invoked command in '/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/src/webots_demo' returned '0': PYTHONPATH=/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/build install --record /home/dsh/Documents/work_logs/code/AIIMU_ros2/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data

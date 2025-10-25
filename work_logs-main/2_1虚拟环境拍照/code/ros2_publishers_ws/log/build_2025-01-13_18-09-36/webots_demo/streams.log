@@ -1,0 +1,28 @@
+[0.501s] Invoking command in '/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/src/webots_demo': PYTHONPATH=/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.690s] writing ../../build/webots_demo/webots_demo.egg-info/PKG-INFO
+[0.690s] writing dependency_links to ../../build/webots_demo/webots_demo.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../../build/webots_demo/webots_demo.egg-info/entry_points.txt
+[0.690s] writing requirements to ../../build/webots_demo/webots_demo.egg-info/requires.txt
+[0.690s] writing top-level names to ../../build/webots_demo/webots_demo.egg-info/top_level.txt
+[0.691s] reading manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.692s] writing manifest file '../../build/webots_demo/webots_demo.egg-info/SOURCES.txt'
+[0.692s] running build
+[0.692s] running build_py
+[0.692s] copying webots_demo/photo.py -> /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo
+[0.693s] running install
+[0.694s] running install_lib
+[0.694s] copying /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/build/lib/webots_demo/photo.py -> /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo
+[0.695s] byte-compiling /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo/photo.py to photo.cpython-310.pyc
+[0.695s] running install_data
+[0.696s] running install_egg_info
+[0.697s] removing '/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.697s] Copying ../../build/webots_demo/webots_demo.egg-info to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages/webots_demo-0.0.0-py3.10.egg-info
+[0.698s] running install_scripts
+[0.713s] Installing camera_xyz script to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.713s] Installing camera_xyz2 script to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.713s] Installing epuck_scan script to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.713s] Installing photo script to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.713s] Installing random_walk script to /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/webots_demo
+[0.713s] writing list of installed files to '/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/install.log'
+[0.734s] Invoked command in '/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/src/webots_demo' returned '0': PYTHONPATH=/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/install/webots_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webots_demo build --build-base /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/build install --record /home/ljl/Documents/工作目录/2_1虚拟环境拍照/code/ros2_publishers_ws/build/webots_demo/install.log --single-version-externally-managed install_data

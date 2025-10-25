@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- 启动 RViz -->
+    <node pkg="rviz2" exec="rviz2" name="rviz">
+        <param name="-d" value="$(find-pkg-share sfuise)/config/test.rviz"/>
+    </node>
+    <!-- 发布静态坐标变换 -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="static_transform_publisher"
+      args="--x 0 --y 0 --z 0 --roll 0 --pitch 0 --yaw 0 --frame-id map --child-frame-id my_frame" />
+
+    <!-- 启动 EstimationInterface -->
+    <node pkg="sfuise" exec="EstimationInterface" name="EstimationInterface" output="screen">
+        <param name="rosparam_yaml" value="$(find-pkg-share sfuise)/config/config_test_isas-walk3.yaml"/>
+    </node>
+
+    <!-- 启动 SplineFusion -->
+    <node pkg="sfuise" exec="SplineFusion" name="SplineFusion" output="screen">
+        <param name="rosparam_yaml" value="$(find-pkg-share sfuise)/config/config_test_isas-walk3.yaml"/>
+    </node>
+</launch>
+
